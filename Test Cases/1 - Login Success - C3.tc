@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1 - Login Success - C3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>436c0cab-d266-4077-a918-235c640580b6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c82e9de1-6fd3-4c3e-a77e-523164e00686</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
