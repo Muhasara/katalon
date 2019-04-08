@@ -37,8 +37,8 @@ WebUI.setText(findTestObject('Object Repository/Dynamic Property/input_code'), '
 
 WebUI.click(findTestObject('Object Repository/Dynamic Property/button_Kaydet'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.verifyEqual(WebUI.getAttribute(findTestObject('General/div_afterAddMessage'), 'value'), '')
+WebUI.verifyElementPresent(findTestObject('General/button_operation'), 5)
 
 WebUI.closeBrowser()
