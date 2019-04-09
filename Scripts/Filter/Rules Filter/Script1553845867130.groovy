@@ -95,6 +95,6 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_com
 
 WebUI.click(findTestObject('Object Repository/Filter/button_f_search'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
