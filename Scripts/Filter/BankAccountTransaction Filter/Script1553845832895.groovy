@@ -34,63 +34,56 @@ WebUI.click(findTestObject('Object Repository/Filter/div_f_transferStatus'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
-} else {
 }
 
 WebUI.click(findTestObject('Object Repository/Filter/div_f_voucherType'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
-} else {
 }
 
 WebUI.click(findTestObject('Object Repository/Filter/div_f_bank'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
-} else {
 }
 
 WebUI.click(findTestObject('Object Repository/Filter/div_f_accountName'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
-} else {
 }
 
 WebUI.click(findTestObject('Object Repository/Filter/div_f_typeCode'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
-} else {
 }
 
 WebUI.click(findTestObject('Object Repository/Filter/div_f_typeCodeTwo'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
-} else {
 }
 
 WebUI.click(findTestObject('Object Repository/Filter/div_f_currencyCode'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
-} else {
 }
 
 WebUI.setText(findTestObject('Object Repository/Filter/input_f_searchInput'), 'Test')
@@ -99,9 +92,8 @@ WebUI.click(findTestObject('Object Repository/Filter/div_f_category'))
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
-} else {
 }
 
 WebUI.click(findTestObject('Object Repository/Filter/button_f_search'))

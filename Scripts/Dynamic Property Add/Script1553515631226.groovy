@@ -15,12 +15,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('1 - Login Success - C3'), [:], FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/HomePage/Rules'), 3, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementNotPresent(findTestObject('HomePage/Rules'), 3, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/HomePage/Descripton'))
 }
 
 if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/HomePage/Dynamic-Fields'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Object Repository/HomePage/Rules'))
+	webUI.click(findTestObject('HomePage/Rules'))
 }
 
 WebUI.delay(2)

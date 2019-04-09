@@ -13,3 +13,46 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('1 - Login Success - C3'), [:], FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/Notifications'), 5) == true) {
+    WebUI.click(findTestObject('Object Repository/HomePage/Notifications'))
+} else {
+    WebUI.click(findTestObject('Object Repository/HomePage/Descripton'))
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('Object Repository/HomePage/Notifications'))
+}
+
+WebUI.click(findTestObject('Object Repository/Filter/div_f_movementCategories'))
+
+WebUI.delay(1)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.click(findTestObject('Object Repository/Filter/div_f_roles'))
+
+WebUI.delay(1)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.click(findTestObject('Object Repository/Filter/div_f_user'))
+
+WebUI.delay(1)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.setText(findTestObject('Object Repository/Filter/input_f_search'), 'TEST')
+
+WebUI.click(findTestObject('Object Repository/Filter/button_f_search'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()

@@ -13,3 +13,88 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('1 - Login Success - C3'), [:], FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyElementNotPresent(findTestObject('HomePage/Rules'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/HomePage/Description'))
+}
+
+if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/HomePage/a_Custom_Rules'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('HomePage/Rules'))
+}
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/HomePage/a_Custom_Rules'))
+
+WebUI.setText(findTestObject('Object Repository/Filter/input_f_exampleDescription'), 'TEST')
+
+WebUI.click(findTestObject('Object Repository/Filter/div_f_bank'))
+
+WebUI.delay(1)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.click(findTestObject('Object Repository/Filter/div_f_typeCode'))
+
+WebUI.delay(1)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.click(findTestObject('Object Repository/Filter/div_f_typeCodeTwo'))
+
+WebUI.delay(1)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.click(findTestObject('Object Repository/Filter/div_f_voucherType'))
+
+WebUI.delay(1)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.setText(findTestObject('Object Repository/Filter/input_f_ workplace'), 'İSYERİ')
+
+WebUI.setText(findTestObject('Object Repository/Filter/input_f_department'), 'BOLUM')
+
+WebUI.setText(findTestObject('Object Repository/Filter/input_f_expenseCenter'), 'MASRAF MERKEZI')
+
+WebUI.setText(findTestObject('Object Repository/Filter/input_f_bankAccountCode'), 'BANKA HESAP KODU')
+
+WebUI.setText(findTestObject('Object Repository/Filter/input_f_safeCode'), 'KASA KODU')
+
+WebUI.click(findTestObject('Object Repository/Filter/div_incomingCategory'))
+
+WebUI.delay(1)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.click(findTestObject('Object Repository/Filter/div_outgoingCategory'))
+
+WebUI.delay(1)
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.click(findTestObject('Object Repository/Filter/div_f_transferStatus'))
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_combobox(1)'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
+}
+
+WebUI.click(findTestObject('Object Repository/Filter/button_f_search'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
