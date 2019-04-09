@@ -23,7 +23,7 @@ if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/HomePage/a_C
     WebUI.click(findTestObject('HomePage/Rules'))
 }
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/HomePage/a_Custom_Rules'))
 
@@ -71,7 +71,7 @@ WebUI.setText(findTestObject('Object Repository/Filter/input_f_bankAccountCode')
 
 WebUI.setText(findTestObject('Object Repository/Filter/input_f_safeCode'), 'KASA KODU')
 
-WebUI.click(findTestObject('Object Repository/Filter/div_incomingCategory'))
+WebUI.click(findTestObject('Filter/div_f_incomingCategory'))
 
 WebUI.delay(1)
 
@@ -79,7 +79,7 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_com
     WebUI.click(findTestObject('Object Repository/Filter/li_f_combobox(1)'))
 }
 
-WebUI.click(findTestObject('Object Repository/Filter/div_outgoingCategory'))
+WebUI.click(findTestObject('Filter/div_f_outgoingCategory'))
 
 WebUI.delay(1)
 
@@ -95,6 +95,6 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Filter/li_f_com
 
 WebUI.click(findTestObject('Object Repository/Filter/button_f_search'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
