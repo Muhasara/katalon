@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Filter Test Suit" time="183" tests="8" failures="0" errors="0">
+   <testsuite name="Filter Test Suit" tests="8" failures="0" errors="0" time="183" timestamp="2019-04-10 14:17:18" hostname="volkan.kiper - vkiper.ecozum.teknik" id="">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716"/>
+         <property name="logFiles" value="C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895055403.png, C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895072874.png, C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895097205.png, C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895149574.png, C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895163530.png, C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895180174.png, C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895187821.png, C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895192415.png, C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895214974.png"/>
+         <property name="hostName" value="volkan.kiper - vkiper.ecozum.teknik"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.10.129"/>
+         <property name="sessionId" value="4e517372ce719326ef23f8e83db1f8c1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Filter/BankAccountBalances Filter" classname="Test Cases/Filter/BankAccountBalances Filter" status="PASSED">
+         <system-out><![CDATA[2019-04-10 14:17:19 - [TEST_CASE][PASSED] - Test Cases/Filter/BankAccountBalances Filter: Test Cases/Filter/BankAccountBalances Filter
+
+2019-04-10 14:17:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1 - Login Success - C3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:17:19 - [TEST_CASE][PASSED] - Test Cases/1 - Login Success - C3: Test Cases/1 - Login Success - C3
+
+2019-04-10 14:17:19 - [TEST_STEP][PASSED] - openBrowser(site): Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:17:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-10 14:17:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-10 14:17:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:17:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Giri Yap_username"), user): Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:17:26 - [MESSAGE][PASSED] - Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:17:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_E-posta_password"), pw): Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:17:27 - [MESSAGE][PASSED] - Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:17:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Giri Yap")): Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:17:27 - [TEST_STEP][PASSED] - check(findTestObject("HomePage/Dashboard_Logo")): Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:17:27 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:17:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:17:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:17:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Balances")): Object: 'Object Repository/HomePage/Balances' is clicked on
+
+2019-04-10 14:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Balances' is clicked on
+
+2019-04-10 14:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_bank")): Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:17:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:17:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:17:30 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:17:30 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_accountName")): Object: 'Object Repository/Filter/div_f_accountName' is clicked on
+
+2019-04-10 14:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_accountName' is clicked on
+
+2019-04-10 14:17:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:17:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:17:32 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+
+2019-04-10 14:17:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-10 14:17:35 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+[[ATTACHMENT|C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895055403.png]]
+
+2019-04-10 14:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_currencyCode")): Object: 'Object Repository/Filter/div_f_currencyCode' is clicked on
+
+2019-04-10 14:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_currencyCode' is clicked on
+
+2019-04-10 14:17:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:17:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:17:36 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:17:37 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:17:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_search"), "TEST"): Text 'TEST' is set on object 'Object Repository/Filter/input_f_search'
+
+2019-04-10 14:17:37 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Filter/input_f_search'
+
+2019-04-10 14:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/button_f_search")): Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:17:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:17:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:17:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-10 14:17:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter/BankAccounts Filter" classname="Test Cases/Filter/BankAccounts Filter" status="PASSED">
+         <system-out><![CDATA[2019-04-10 14:17:40 - [TEST_CASE][PASSED] - Test Cases/Filter/BankAccounts Filter: Test Cases/Filter/BankAccounts Filter
+
+2019-04-10 14:17:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1 - Login Success - C3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:17:40 - [TEST_CASE][PASSED] - Test Cases/1 - Login Success - C3: Test Cases/1 - Login Success - C3
+
+2019-04-10 14:17:40 - [TEST_STEP][PASSED] - openBrowser(site): Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:17:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-10 14:17:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:17:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Giri Yap_username"), user): Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:17:46 - [MESSAGE][PASSED] - Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:17:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_E-posta_password"), pw): Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:17:46 - [MESSAGE][PASSED] - Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:17:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Giri Yap")): Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:17:46 - [TEST_STEP][PASSED] - check(findTestObject("HomePage/Dashboard_Logo")): Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:17:46 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:17:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:17:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:17:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:17:48 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/HomePage/Bank-Accounts"), 5) == true): Object: 'Object Repository/HomePage/Bank-Accounts' is clicked on
+
+2019-04-10 14:17:48 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Bank-Accounts' is present
+
+2019-04-10 14:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Bank-Accounts")): Object: 'Object Repository/HomePage/Bank-Accounts' is clicked on
+
+2019-04-10 14:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Bank-Accounts' is clicked on
+
+2019-04-10 14:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_bank")): Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:17:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:17:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:17:49 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+
+2019-04-10 14:17:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-10 14:17:53 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+[[ATTACHMENT|C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895072874.png]]
+
+2019-04-10 14:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_accountName")): Object: 'Object Repository/Filter/div_f_accountName' is clicked on
+
+2019-04-10 14:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_accountName' is clicked on
+
+2019-04-10 14:17:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:17:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:17:54 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:17:54 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:17:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_search"), "TEST"): Text 'TEST' is set on object 'Object Repository/Filter/input_f_search'
+
+2019-04-10 14:17:54 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Filter/input_f_search'
+
+2019-04-10 14:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/button_f_search")): Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:17:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:17:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:17:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-10 14:17:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter/BankAccountTransaction Filter" classname="Test Cases/Filter/BankAccountTransaction Filter" status="PASSED">
+         <system-out><![CDATA[2019-04-10 14:17:57 - [TEST_CASE][PASSED] - Test Cases/Filter/BankAccountTransaction Filter: Test Cases/Filter/BankAccountTransaction Filter
+
+2019-04-10 14:17:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1 - Login Success - C3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:17:58 - [TEST_CASE][PASSED] - Test Cases/1 - Login Success - C3: Test Cases/1 - Login Success - C3
+
+2019-04-10 14:17:58 - [TEST_STEP][PASSED] - openBrowser(site): Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:17:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-10 14:18:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:18:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Giri Yap_username"), user): Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:18:03 - [MESSAGE][PASSED] - Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:18:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_E-posta_password"), pw): Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:18:03 - [MESSAGE][PASSED] - Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Giri Yap")): Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:18:03 - [TEST_STEP][PASSED] - check(findTestObject("HomePage/Dashboard_Logo")): Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:18:03 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:18:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:18:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:18:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Transactions")): Object: 'Object Repository/HomePage/Transactions' is clicked on
+
+2019-04-10 14:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Transactions' is clicked on
+
+2019-04-10 14:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/input_f_startCalendarPicker")): Object: 'Object Repository/Filter/input_f_startCalendarPicker' is clicked on
+
+2019-04-10 14:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/input_f_startCalendarPicker' is clicked on
+
+2019-04-10 14:18:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/a_f_calandertoday")): Object: 'Object Repository/Filter/a_f_calandertoday' is clicked on
+
+2019-04-10 14:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/a_f_calandertoday' is clicked on
+
+2019-04-10 14:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/input_f_finishCalendarPicker")): Object: 'Object Repository/Filter/input_f_finishCalendarPicker' is clicked on
+
+2019-04-10 14:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/input_f_finishCalendarPicker' is clicked on
+
+2019-04-10 14:18:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/a_f_calandertoday")): Object: 'Object Repository/Filter/a_f_calandertoday' is clicked on
+
+2019-04-10 14:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/a_f_calandertoday' is clicked on
+
+2019-04-10 14:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_transferStatus")): Object: 'Object Repository/Filter/div_f_transferStatus' is clicked on
+
+2019-04-10 14:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_transferStatus' is clicked on
+
+2019-04-10 14:18:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:09 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:10 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_voucherType")): Object: 'Object Repository/Filter/div_f_voucherType' is clicked on
+
+2019-04-10 14:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_voucherType' is clicked on
+
+2019-04-10 14:18:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:11 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:11 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_bank")): Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:18:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:12 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:12 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_accountName")): Object: 'Object Repository/Filter/div_f_accountName' is clicked on
+
+2019-04-10 14:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_accountName' is clicked on
+
+2019-04-10 14:18:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:13 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+
+2019-04-10 14:18:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-10 14:18:17 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+[[ATTACHMENT|C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895097205.png]]
+
+2019-04-10 14:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_typeCode")): Object: 'Object Repository/Filter/div_f_typeCode' is clicked on
+
+2019-04-10 14:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_typeCode' is clicked on
+
+2019-04-10 14:18:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:18 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:18 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_typeCodeTwo")): Object: 'Object Repository/Filter/div_f_typeCodeTwo' is clicked on
+
+2019-04-10 14:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_typeCodeTwo' is clicked on
+
+2019-04-10 14:18:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:19 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:19 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_currencyCode")): Object: 'Object Repository/Filter/div_f_currencyCode' is clicked on
+
+2019-04-10 14:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_currencyCode' is clicked on
+
+2019-04-10 14:18:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:21 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:21 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_searchInput"), "Test"): Text 'Test' is set on object 'Object Repository/Filter/input_f_searchInput'
+
+2019-04-10 14:18:21 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Filter/input_f_searchInput'
+
+2019-04-10 14:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_category")): Object: 'Object Repository/Filter/div_f_category' is clicked on
+
+2019-04-10 14:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_category' is clicked on
+
+2019-04-10 14:18:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:22 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:22 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/button_f_search")): Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:18:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:18:25 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter/CurrentAccount Filter" classname="Test Cases/Filter/CurrentAccount Filter" status="PASSED">
+         <system-out><![CDATA[2019-04-10 14:18:25 - [TEST_CASE][PASSED] - Test Cases/Filter/CurrentAccount Filter: Test Cases/Filter/CurrentAccount Filter
+
+2019-04-10 14:18:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1 - Login Success - C3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:18:25 - [TEST_CASE][PASSED] - Test Cases/1 - Login Success - C3: Test Cases/1 - Login Success - C3
+
+2019-04-10 14:18:25 - [TEST_STEP][PASSED] - openBrowser(site): Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:18:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-10 14:18:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-10 14:18:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:18:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Giri Yap_username"), user): Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:18:33 - [MESSAGE][PASSED] - Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_E-posta_password"), pw): Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:18:33 - [MESSAGE][PASSED] - Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Giri Yap")): Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:18:33 - [TEST_STEP][PASSED] - check(findTestObject("HomePage/Dashboard_Logo")): Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:18:33 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:18:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:18:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:18:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:18:35 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/HomePage/Current-Accounts"), 5) == true): Object: 'Object Repository/HomePage/Current-Accounts' is clicked on
+
+2019-04-10 14:18:35 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Current-Accounts' is present
+
+2019-04-10 14:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Current-Accounts")): Object: 'Object Repository/HomePage/Current-Accounts' is clicked on
+
+2019-04-10 14:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Current-Accounts' is clicked on
+
+2019-04-10 14:18:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_currentAccountName"), "Cari Hesap"): Text 'Cari Hesap' is set on object 'Object Repository/Filter/input_f_currentAccountName'
+
+2019-04-10 14:18:35 - [MESSAGE][PASSED] - Text 'Cari Hesap' is set on object 'Object Repository/Filter/input_f_currentAccountName'
+
+2019-04-10 14:18:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_tc"), "11111111111"): Text '11111111111' is set on object 'Object Repository/Filter/input_f_tc'
+
+2019-04-10 14:18:36 - [MESSAGE][PASSED] - Text '11111111111' is set on object 'Object Repository/Filter/input_f_tc'
+
+2019-04-10 14:18:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_taxNumber"), "123456789"): Text '123456789' is set on object 'Object Repository/Filter/input_f_taxNumber'
+
+2019-04-10 14:18:36 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Filter/input_f_taxNumber'
+
+2019-04-10 14:18:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_iban"), "TR121234123412341234123412"): Text 'TR121234123412341234123412' is set on object 'Object Repository/Filter/input_f_iban'
+
+2019-04-10 14:18:37 - [MESSAGE][PASSED] - Text 'TR121234123412341234123412' is set on object 'Object Repository/Filter/input_f_iban'
+
+2019-04-10 14:18:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_bankAccountNumber"), "110110110110"): Text '110110110110' is set on object 'Object Repository/Filter/input_f_bankAccountNumber'
+
+2019-04-10 14:18:37 - [MESSAGE][PASSED] - Text '110110110110' is set on object 'Object Repository/Filter/input_f_bankAccountNumber'
+
+2019-04-10 14:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/button_f_search")): Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:18:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:18:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:18:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-10 14:18:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter/Notification Filter" classname="Test Cases/Filter/Notification Filter" status="PASSED">
+         <system-out><![CDATA[2019-04-10 14:18:40 - [TEST_CASE][PASSED] - Test Cases/Filter/Notification Filter: Test Cases/Filter/Notification Filter
+
+2019-04-10 14:18:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1 - Login Success - C3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:18:40 - [TEST_CASE][PASSED] - Test Cases/1 - Login Success - C3: Test Cases/1 - Login Success - C3
+
+2019-04-10 14:18:40 - [TEST_STEP][PASSED] - openBrowser(site): Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:18:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-10 14:18:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:18:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Giri Yap_username"), user): Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:18:46 - [MESSAGE][PASSED] - Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:18:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_E-posta_password"), pw): Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:18:46 - [MESSAGE][PASSED] - Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:18:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Giri Yap")): Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:18:46 - [TEST_STEP][PASSED] - check(findTestObject("HomePage/Dashboard_Logo")): Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:18:47 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:18:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:18:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:18:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:18:49 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/HomePage/Notifications"), 5) == true): Object: 'Object Repository/HomePage/Notifications' is clicked on
+
+2019-04-10 14:18:49 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Notifications' is present
+
+2019-04-10 14:18:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Notifications")): Object: 'Object Repository/HomePage/Notifications' is clicked on
+
+2019-04-10 14:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Notifications' is clicked on
+
+2019-04-10 14:18:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_movementCategories")): Object: 'Object Repository/Filter/div_f_movementCategories' is clicked on
+
+2019-04-10 14:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_movementCategories' is clicked on
+
+2019-04-10 14:18:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:50 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:50 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_roles")): Object: 'Object Repository/Filter/div_f_roles' is clicked on
+
+2019-04-10 14:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_roles' is clicked on
+
+2019-04-10 14:18:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:51 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:51 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_user")): Object: 'Object Repository/Filter/div_f_user' is clicked on
+
+2019-04-10 14:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_user' is clicked on
+
+2019-04-10 14:18:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:18:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:18:52 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:18:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_search"), "TEST"): Text 'TEST' is set on object 'Object Repository/Filter/input_f_search'
+
+2019-04-10 14:18:53 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Filter/input_f_search'
+
+2019-04-10 14:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/button_f_search")): Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:18:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:18:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:18:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-10 14:18:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter/Rolls Filter" classname="Test Cases/Filter/Rolls Filter" status="PASSED">
+         <system-out><![CDATA[2019-04-10 14:18:56 - [TEST_CASE][PASSED] - Test Cases/Filter/Rolls Filter: Test Cases/Filter/Rolls Filter
+
+2019-04-10 14:18:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1 - Login Success - C3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:18:56 - [TEST_CASE][PASSED] - Test Cases/1 - Login Success - C3: Test Cases/1 - Login Success - C3
+
+2019-04-10 14:18:56 - [TEST_STEP][PASSED] - openBrowser(site): Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:18:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-10 14:19:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Giri Yap_username"), user): Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:19:01 - [MESSAGE][PASSED] - Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_E-posta_password"), pw): Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:19:02 - [MESSAGE][PASSED] - Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Giri Yap")): Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:19:02 - [TEST_STEP][PASSED] - check(findTestObject("HomePage/Dashboard_Logo")): Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:19:02 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:19:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:19:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:19:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:19:04 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/HomePage/Users_Settings"), 5, OPTIONAL)): Web element with id: 'Object Repository/HomePage/Users_Settings' located by 'By.xpath: //*[contains(@class, '#dashboard.userSettings')]' is present after '5' second(s)
+
+2019-04-10 14:19:09 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/HomePage/Users_Settings' located by 'By.xpath: //*[contains(@class, '#dashboard.userSettings')]' is present after '5' second(s)
+[[ATTACHMENT|C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895149574.png]]
+
+2019-04-10 14:19:09 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/HomePage/Roles"), 5, OPTIONAL)): Object: 'Object Repository/HomePage/Users_Settings' is clicked on
+
+2019-04-10 14:19:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/HomePage/Roles' located by 'By.xpath: //*[@href = '/dashboard/roles']' is not present after '5' second(s)
+
+2019-04-10 14:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Users_Settings")): Object: 'Object Repository/HomePage/Users_Settings' is clicked on
+
+2019-04-10 14:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Users_Settings' is clicked on
+
+2019-04-10 14:19:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:19:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:19:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Roles")): Object: 'Object Repository/HomePage/Roles' is clicked on
+
+2019-04-10 14:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Roles' is clicked on
+
+2019-04-10 14:19:11 - [TEST_STEP][PASSED] - click(findTestObject("Filter/div_f_mainUserGroup")): Object: 'Object Repository/Filter/div_f_mainUserGroup' is clicked on
+
+2019-04-10 14:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_mainUserGroup' is clicked on
+
+2019-04-10 14:19:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:19:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:19:13 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_permissions")): Object: 'Object Repository/Filter/div_f_permissions' is clicked on
+
+2019-04-10 14:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_permissions' is clicked on
+
+2019-04-10 14:19:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:19:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:19:15 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:15 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_bank")): Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:19:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:19:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:19:18 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:18 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:19:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_accountName")): Object: 'Object Repository/Filter/div_f_accountName' is clicked on
+
+2019-04-10 14:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_accountName' is clicked on
+
+2019-04-10 14:19:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:19:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:19:20 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+
+2019-04-10 14:19:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-10 14:19:23 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+[[ATTACHMENT|C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895163530.png]]
+
+2019-04-10 14:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/button_f_search")): Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:19:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:19:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:19:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-10 14:19:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter/Rules Filter" classname="Test Cases/Filter/Rules Filter" status="PASSED">
+         <system-out><![CDATA[2019-04-10 14:19:26 - [TEST_CASE][PASSED] - Test Cases/Filter/Rules Filter: Test Cases/Filter/Rules Filter
+
+2019-04-10 14:19:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1 - Login Success - C3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:19:27 - [TEST_CASE][PASSED] - Test Cases/1 - Login Success - C3: Test Cases/1 - Login Success - C3
+
+2019-04-10 14:19:27 - [TEST_STEP][PASSED] - openBrowser(site): Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:19:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-10 14:19:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Giri Yap_username"), user): Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:19:32 - [MESSAGE][PASSED] - Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_E-posta_password"), pw): Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:19:32 - [MESSAGE][PASSED] - Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Giri Yap")): Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:19:32 - [TEST_STEP][PASSED] - check(findTestObject("HomePage/Dashboard_Logo")): Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:19:32 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:19:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:19:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:19:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:19:34 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("HomePage/Rules"), 5, OPTIONAL)): Web element with id: 'Object Repository/HomePage/Rules' located by 'By.xpath: //*[contains(@class, '#dashboard.rules')]' is present after '5' second(s)
+
+2019-04-10 14:19:40 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/HomePage/Rules' located by 'By.xpath: //*[contains(@class, '#dashboard.rules')]' is present after '5' second(s)
+[[ATTACHMENT|C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895180174.png]]
+
+2019-04-10 14:19:40 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/HomePage/a_Custom_Rules"), 5, OPTIONAL)): Object: 'Object Repository/HomePage/Rules' is clicked on
+
+2019-04-10 14:19:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/HomePage/a_Custom_Rules' located by 'By.xpath: //*[@href = '/dashboard/rules/custom-rules']' is not present after '5' second(s)
+
+2019-04-10 14:19:40 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Rules")): Object: 'Object Repository/HomePage/Rules' is clicked on
+
+2019-04-10 14:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Rules' is clicked on
+
+2019-04-10 14:19:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:19:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/a_Custom_Rules")): Object: 'Object Repository/HomePage/a_Custom_Rules' is clicked on
+
+2019-04-10 14:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Custom_Rules' is clicked on
+
+2019-04-10 14:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_exampleDescription"), "TEST"): Text 'TEST' is set on object 'Object Repository/Filter/input_f_exampleDescription'
+
+2019-04-10 14:19:42 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Filter/input_f_exampleDescription'
+
+2019-04-10 14:19:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_bank")): Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_bank' is clicked on
+
+2019-04-10 14:19:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:19:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:19:43 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:43 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_typeCode")): Object: 'Object Repository/Filter/div_f_typeCode' is clicked on
+
+2019-04-10 14:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_typeCode' is clicked on
+
+2019-04-10 14:19:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:19:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:19:44 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+
+2019-04-10 14:19:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-10 14:19:48 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+[[ATTACHMENT|C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895187821.png]]
+
+2019-04-10 14:19:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_typeCodeTwo")): Object: 'Object Repository/Filter/div_f_typeCodeTwo' is clicked on
+
+2019-04-10 14:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_typeCodeTwo' is clicked on
+
+2019-04-10 14:19:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:19:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:19:49 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+
+2019-04-10 14:19:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-10 14:19:52 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Filter/li_f_combobox(1)' located by 'By.xpath: //*[@class = 'ant-select-dropdown-menu-item #select1 ant-select-dropdown-menu-item-active']' not found
+[[ATTACHMENT|C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895192415.png]]
+
+2019-04-10 14:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_voucherType")): Object: 'Object Repository/Filter/div_f_voucherType' is clicked on
+
+2019-04-10 14:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_voucherType' is clicked on
+
+2019-04-10 14:19:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:19:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:19:53 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:53 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:19:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_ workplace"), "İSYERİ"): Text 'İSYERİ' is set on object 'Object Repository/Filter/input_f_ workplace'
+
+2019-04-10 14:19:54 - [MESSAGE][PASSED] - Text 'İSYERİ' is set on object 'Object Repository/Filter/input_f_ workplace'
+
+2019-04-10 14:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_department"), "BOLUM"): Text 'BOLUM' is set on object 'Object Repository/Filter/input_f_department'
+
+2019-04-10 14:19:54 - [MESSAGE][PASSED] - Text 'BOLUM' is set on object 'Object Repository/Filter/input_f_department'
+
+2019-04-10 14:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_expenseCenter"), "MASRAF MERKEZI"): Text 'MASRAF MERKEZI' is set on object 'Object Repository/Filter/input_f_expenseCenter'
+
+2019-04-10 14:19:55 - [MESSAGE][PASSED] - Text 'MASRAF MERKEZI' is set on object 'Object Repository/Filter/input_f_expenseCenter'
+
+2019-04-10 14:19:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_bankAccountCode"), "BANKA HESAP KODU"): Text 'BANKA HESAP KODU' is set on object 'Object Repository/Filter/input_f_bankAccountCode'
+
+2019-04-10 14:19:55 - [MESSAGE][PASSED] - Text 'BANKA HESAP KODU' is set on object 'Object Repository/Filter/input_f_bankAccountCode'
+
+2019-04-10 14:19:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_safeCode"), "KASA KODU"): Text 'KASA KODU' is set on object 'Object Repository/Filter/input_f_safeCode'
+
+2019-04-10 14:19:55 - [MESSAGE][PASSED] - Text 'KASA KODU' is set on object 'Object Repository/Filter/input_f_safeCode'
+
+2019-04-10 14:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Filter/div_f_incomingCategory")): Object: 'Object Repository/Filter/div_f_incomingCategory' is clicked on
+
+2019-04-10 14:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_incomingCategory' is clicked on
+
+2019-04-10 14:19:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:19:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:19:57 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:57 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Filter/div_f_outgoingCategory")): Object: 'Object Repository/Filter/div_f_outgoingCategory' is clicked on
+
+2019-04-10 14:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_outgoingCategory' is clicked on
+
+2019-04-10 14:19:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:19:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:19:58 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:58 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_transferStatus")): Object: 'Object Repository/Filter/div_f_transferStatus' is clicked on
+
+2019-04-10 14:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_transferStatus' is clicked on
+
+2019-04-10 14:19:58 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:58 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/button_f_search")): Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:19:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:20:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:20:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-10 14:20:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter/Users Filter" classname="Test Cases/Filter/Users Filter" status="PASSED">
+         <system-out><![CDATA[2019-04-10 14:20:01 - [TEST_CASE][PASSED] - Test Cases/Filter/Users Filter: Test Cases/Filter/Users Filter
+
+2019-04-10 14:20:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1 - Login Success - C3"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:20:01 - [TEST_CASE][PASSED] - Test Cases/1 - Login Success - C3: Test Cases/1 - Login Success - C3
+
+2019-04-10 14:20:01 - [TEST_STEP][PASSED] - openBrowser(site): Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:20:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-10 14:20:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testportal.netekstre.com'
+
+2019-04-10 14:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Giri Yap_username"), user): Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:20:07 - [MESSAGE][PASSED] - Text 'admin@runtest.com' is set on object 'Object Repository/Login/input_Giri Yap_username'
+
+2019-04-10 14:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_E-posta_password"), pw): Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:20:07 - [MESSAGE][PASSED] - Text 'Admin123!' is set on object 'Object Repository/Login/input_E-posta_password'
+
+2019-04-10 14:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Giri Yap")): Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Giri Yap' is clicked on
+
+2019-04-10 14:20:07 - [TEST_STEP][PASSED] - check(findTestObject("HomePage/Dashboard_Logo")): Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Dashboard_Logo' is checked
+
+2019-04-10 14:20:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:20:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:20:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1 - Login Success - C3' successfully
+
+2019-04-10 14:20:09 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/HomePage/Users_Settings"), 5, OPTIONAL)): Web element with id: 'Object Repository/HomePage/Users_Settings' located by 'By.xpath: //*[contains(@class, '#dashboard.userSettings')]' is present after '5' second(s)
+
+2019-04-10 14:20:15 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/HomePage/Users_Settings' located by 'By.xpath: //*[contains(@class, '#dashboard.userSettings')]' is present after '5' second(s)
+[[ATTACHMENT|C:\\Users\\volkan.kiper\\Katalon Studio\\Sample\\Reports\\Filter Test Suit\\20190410_141716\\1554895214974.png]]
+
+2019-04-10 14:20:15 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/HomePage/Users"), 5, OPTIONAL)): Object: 'Object Repository/HomePage/Users_Settings' is clicked on
+
+2019-04-10 14:20:15 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/HomePage/Users' located by 'By.xpath: //*[@href = '/dashboard/users']' is not present after '5' second(s)
+
+2019-04-10 14:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Users_Settings")): Object: 'Object Repository/HomePage/Users_Settings' is clicked on
+
+2019-04-10 14:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Users_Settings' is clicked on
+
+2019-04-10 14:20:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-10 14:20:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-10 14:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Users")): Object: 'Object Repository/HomePage/Users' is clicked on
+
+2019-04-10 14:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Users' is clicked on
+
+2019-04-10 14:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/div_f_userGroups")): Object: 'Object Repository/Filter/div_f_userGroups' is clicked on
+
+2019-04-10 14:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/div_f_userGroups' is clicked on
+
+2019-04-10 14:20:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:20:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:20:18 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Filter/li_f_combobox(1)"), 3, OPTIONAL)): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:20:18 - [MESSAGE][PASSED] - Object 'Object Repository/Filter/li_f_combobox(1)' is present
+
+2019-04-10 14:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/li_f_combobox(1)")): Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/li_f_combobox(1)' is clicked on
+
+2019-04-10 14:20:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Filter/input_f_search"), "TEST"): Text 'TEST' is set on object 'Object Repository/Filter/input_f_search'
+
+2019-04-10 14:20:19 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Filter/input_f_search'
+
+2019-04-10 14:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Filter/button_f_search")): Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Filter/button_f_search' is clicked on
+
+2019-04-10 14:20:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-10 14:20:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-10 14:20:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-10 14:20:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-10 14:17:18 - [TEST_SUITE][PASSED] - Filter Test Suit: Test Cases/Filter/Users Filter]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

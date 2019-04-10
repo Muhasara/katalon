@@ -27,33 +27,33 @@ WebUI.click(findTestObject('General/button_operation'))
 
 WebUI.click(findTestObject('General/li_Add-New'))
 
-WebUI.click(findTestObject('Object Repository/BankAccountAdd/div_bank'))
+WebUI.click(findTestObject('BankAccount/div_bank'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Filter/li_f_combobox(1)'))
 
-WebUI.setText(findTestObject('Object Repository/BankAccountAdd/input_branchNumber'), '1234')
+WebUI.setText(findTestObject('BankAccount/input_branchNumber'), '1234')
 
-WebUI.setText(findTestObject('Object Repository/BankAccountAdd/input_branchName'), 'Davutpasa')
+WebUI.setText(findTestObject('BankAccount/input_branchName'), 'Davutpasa')
 
-WebUI.setText(findTestObject('Object Repository/BankAccountAdd/input_accountNumber'), '123456789')
+WebUI.setText(findTestObject('BankAccount/input_accountNumber'), '123456789')
 
-WebUI.setText(findTestObject('Object Repository/BankAccountAdd/input_accountName'), 'TL Hesabı')
+WebUI.setText(findTestObject('BankAccount/input_accountName'), 'TL Hesabı')
 
-WebUI.setText(findTestObject('Object Repository/BankAccountAdd/input_erpCode'), '111')
+WebUI.setText(findTestObject('BankAccount/input_erpCode'), '111')
 
-WebUI.setText(findTestObject('Object Repository/BankAccountAdd/input_iban'), 'TR244507799329800145281489')
+WebUI.setText(findTestObject('BankAccount/input_iban'), 'TR244507799329800145281489')
 
-(WebUI.click(findTestObject('Object Repository/BankAccountAdd/div_currencyCode')))
+(WebUI.click(findTestObject('BankAccount/div_currencyCode')))
 
 (WebUI.click(findTestObject('Filter/li_f_combobox(1)')))
 
-(WebUI.click(findTestObject('Object Repository/BankAccountAdd/div_transferType')))
+(WebUI.click(findTestObject('BankAccount/div_transferType')))
 
 not: run(WebUI.click(findTestObject('Filter/li_f_combobox(1)')))
 
-WebUI.click(findTestObject('Object Repository/BankAccountAdd/span_isActive'))
+WebUI.click(findTestObject('BankAccount/span_isActive'))
 
 WebUI.click(findTestObject('General/button_save'))
 

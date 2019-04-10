@@ -29,35 +29,35 @@ WebUI.click(findTestObject('General/button_operation'))
 
 WebUI.click(findTestObject('General/li_Add-New'))
 
-WebUI.click(findTestObject('Object Repository/CurrentAccountAdd/div_currentAccountType'))
+WebUI.click(findTestObject('CurrentAccount/div_currentAccountType'))
 
 WebUI.click(findTestObject('Filter/li_f_combobox(1)'))
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_currentAccountCode'), '963.852.741')
+WebUI.setText(findTestObject('CurrentAccount/input_currentAccountCode'), '963.852.741')
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_currentAccountName'), 'Bireysel Cari Hesap')
+WebUI.setText(findTestObject('CurrentAccount/input_currentAccountName'), 'Bireysel Cari Hesap')
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_tcknNumber'), '11111111110')
+WebUI.setText(findTestObject('CurrentAccount/input_tcknNumber'), '11111111110')
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_email'), 'a@a.com')
+WebUI.setText(findTestObject('CurrentAccount/input_email'), 'a@a.com')
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_companyTitle'), 'Adı Soyadı')
+WebUI.setText(findTestObject('CurrentAccount/input_companyTitle'), 'Adı Soyadı')
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_phone'), '2121212121')
+WebUI.setText(findTestObject('CurrentAccount/input_phone'), '2121212121')
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_gsm'), '5455455454')
+WebUI.setText(findTestObject('CurrentAccount/input_gsm'), '5455455454')
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_taxOffice'), 'Veri Dairesi')
+WebUI.setText(findTestObject('CurrentAccount/input_taxOffice'), 'Veri Dairesi')
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_taxNumber'), '0000')
+WebUI.setText(findTestObject('CurrentAccount/input_taxNumber'), '0000')
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_iban'), 'TR111111111111111110101010')
+WebUI.setText(findTestObject('CurrentAccount/input_iban'), 'TR111111111111111110101010')
 
-WebUI.click(findTestObject('Object Repository/CurrentAccountAdd/button_addIban'))
+WebUI.click(findTestObject('CurrentAccount/button_addIban'))
 
-WebUI.setText(findTestObject('Object Repository/CurrentAccountAdd/input_bankAccount'), '123987465')
+WebUI.setText(findTestObject('CurrentAccount/input_bankAccount'), '123987465')
 
-WebUI.click(findTestObject('Object Repository/CurrentAccountAdd/button_addBankAccount'))
+WebUI.click(findTestObject('CurrentAccount/button_addBankAccount'))
 
 WebUI.click(findTestObject('General/button_save'))
 

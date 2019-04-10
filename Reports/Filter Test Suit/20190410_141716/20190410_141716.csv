@@ -1,0 +1,171 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Filter Test Suit,Chrome 73.0.3683.86,,2019-04-10 14:17:18,2019-04-10 14:20:22,"3m - 3,284s",PASSED
+,,,,,,
+Test Cases/Filter/BankAccountBalances Filter,Chrome 73.0.3683.86,,2019-04-10 14:17:19,2019-04-10 14:17:40,"21,221s",PASSED
+"callTestCase(findTestCase(""1 - Login Success - C3""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 14:17:19,2019-04-10 14:17:29,"9,893s",PASSED
+"click(findTestObject(""Object Repository/HomePage/Balances""))",Chrome 73.0.3683.86,,2019-04-10 14:17:29,2019-04-10 14:17:29,"0,357s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_bank""))",Chrome 73.0.3683.86,,2019-04-10 14:17:29,2019-04-10 14:17:29,"0,300s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:17:29,2019-04-10 14:17:30,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:17:30,2019-04-10 14:17:31,"0,147s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_accountName""))",Chrome 73.0.3683.86,,2019-04-10 14:17:31,2019-04-10 14:17:31,"0,172s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:17:31,2019-04-10 14:17:32,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:17:32,2019-04-10 14:17:35,"3,600s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_currencyCode""))",Chrome 73.0.3683.86,,2019-04-10 14:17:35,2019-04-10 14:17:35,"0,121s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:17:35,2019-04-10 14:17:36,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:17:36,2019-04-10 14:17:37,"0,126s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_search""), ""TEST"")",Chrome 73.0.3683.86,,2019-04-10 14:17:37,2019-04-10 14:17:37,"0,180s",PASSED
+"click(findTestObject(""Object Repository/Filter/button_f_search""))",Chrome 73.0.3683.86,,2019-04-10 14:17:37,2019-04-10 14:17:37,"0,155s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:17:37,2019-04-10 14:17:39,"2,005s",PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-10 14:17:39,2019-04-10 14:17:40,"0,836s",PASSED
+,,,,,,
+Test Cases/Filter/BankAccounts Filter,Chrome 73.0.3683.86,,2019-04-10 14:17:40,2019-04-10 14:17:57,"17,476s",PASSED
+"callTestCase(findTestCase(""1 - Login Success - C3""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 14:17:40,2019-04-10 14:17:48,"7,895s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/HomePage/Bank-Accounts""), 5) == true)",Chrome 73.0.3683.86,,2019-04-10 14:17:48,2019-04-10 14:17:48,"0,196s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_bank""))",Chrome 73.0.3683.86,,2019-04-10 14:17:48,2019-04-10 14:17:48,"0,132s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:17:48,2019-04-10 14:17:49,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:17:49,2019-04-10 14:17:53,"3,545s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_accountName""))",Chrome 73.0.3683.86,,2019-04-10 14:17:53,2019-04-10 14:17:53,"0,085s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:17:53,2019-04-10 14:17:54,"1,004s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:17:54,2019-04-10 14:17:54,"0,197s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_search""), ""TEST"")",Chrome 73.0.3683.86,,2019-04-10 14:17:54,2019-04-10 14:17:54,"0,226s",PASSED
+"click(findTestObject(""Object Repository/Filter/button_f_search""))",Chrome 73.0.3683.86,,2019-04-10 14:17:54,2019-04-10 14:17:54,"0,119s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:17:54,2019-04-10 14:17:56,"2,003s",PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-10 14:17:56,2019-04-10 14:17:57,"0,847s",PASSED
+,,,,,,
+Test Cases/Filter/BankAccountTransaction Filter,Chrome 73.0.3683.86,,2019-04-10 14:17:57,2019-04-10 14:18:25,"27,524s",PASSED
+"callTestCase(findTestCase(""1 - Login Success - C3""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 14:17:58,2019-04-10 14:18:05,"7,821s",PASSED
+"click(findTestObject(""Object Repository/HomePage/Transactions""))",Chrome 73.0.3683.86,,2019-04-10 14:18:05,2019-04-10 14:18:06,"0,282s",PASSED
+"click(findTestObject(""Object Repository/Filter/input_f_startCalendarPicker""))",Chrome 73.0.3683.86,,2019-04-10 14:18:06,2019-04-10 14:18:06,"0,180s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:06,2019-04-10 14:18:07,"1,002s",PASSED
+"click(findTestObject(""Object Repository/Filter/a_f_calandertoday""))",Chrome 73.0.3683.86,,2019-04-10 14:18:07,2019-04-10 14:18:07,"0,266s",PASSED
+"click(findTestObject(""Object Repository/Filter/input_f_finishCalendarPicker""))",Chrome 73.0.3683.86,,2019-04-10 14:18:07,2019-04-10 14:18:07,"0,117s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:07,2019-04-10 14:18:08,"1,003s",PASSED
+"click(findTestObject(""Object Repository/Filter/a_f_calandertoday""))",Chrome 73.0.3683.86,,2019-04-10 14:18:08,2019-04-10 14:18:08,"0,151s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_transferStatus""))",Chrome 73.0.3683.86,,2019-04-10 14:18:08,2019-04-10 14:18:08,"0,136s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:08,2019-04-10 14:18:09,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:09,2019-04-10 14:18:10,"0,166s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_voucherType""))",Chrome 73.0.3683.86,,2019-04-10 14:18:10,2019-04-10 14:18:10,"0,230s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:10,2019-04-10 14:18:11,"1,001s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:11,2019-04-10 14:18:11,"0,133s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_bank""))",Chrome 73.0.3683.86,,2019-04-10 14:18:11,2019-04-10 14:18:11,"0,138s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:11,2019-04-10 14:18:12,"1,004s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:12,2019-04-10 14:18:12,"0,172s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_accountName""))",Chrome 73.0.3683.86,,2019-04-10 14:18:12,2019-04-10 14:18:12,"0,162s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:12,2019-04-10 14:18:13,"1,002s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:13,2019-04-10 14:18:17,"3,616s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_typeCode""))",Chrome 73.0.3683.86,,2019-04-10 14:18:17,2019-04-10 14:18:17,"0,093s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:17,2019-04-10 14:18:18,"1,005s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:18,2019-04-10 14:18:18,"0,154s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_typeCodeTwo""))",Chrome 73.0.3683.86,,2019-04-10 14:18:18,2019-04-10 14:18:18,"0,116s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:18,2019-04-10 14:18:19,"1,002s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:19,2019-04-10 14:18:20,"0,133s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_currencyCode""))",Chrome 73.0.3683.86,,2019-04-10 14:18:20,2019-04-10 14:18:20,"0,155s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:20,2019-04-10 14:18:21,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:21,2019-04-10 14:18:21,"0,163s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_searchInput""), ""Test"")",Chrome 73.0.3683.86,,2019-04-10 14:18:21,2019-04-10 14:18:21,"0,280s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_category""))",Chrome 73.0.3683.86,,2019-04-10 14:18:21,2019-04-10 14:18:21,"0,108s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:21,2019-04-10 14:18:22,"1,004s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:22,2019-04-10 14:18:22,"0,166s",PASSED
+"click(findTestObject(""Object Repository/Filter/button_f_search""))",Chrome 73.0.3683.86,,2019-04-10 14:18:22,2019-04-10 14:18:23,"0,319s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:18:23,2019-04-10 14:18:25,"2,004s",PASSED
+,,,,,,
+Test Cases/Filter/CurrentAccount Filter,Chrome 73.0.3683.86,,2019-04-10 14:18:25,2019-04-10 14:18:40,"15,271s",PASSED
+"callTestCase(findTestCase(""1 - Login Success - C3""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 14:18:25,2019-04-10 14:18:35,"9,795s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/HomePage/Current-Accounts""), 5) == true)",Chrome 73.0.3683.86,,2019-04-10 14:18:35,2019-04-10 14:18:35,"0,219s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_currentAccountName""), ""Cari Hesap"")",Chrome 73.0.3683.86,,2019-04-10 14:18:35,2019-04-10 14:18:35,"0,428s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_tc""), ""11111111111"")",Chrome 73.0.3683.86,,2019-04-10 14:18:35,2019-04-10 14:18:36,"0,342s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_taxNumber""), ""123456789"")",Chrome 73.0.3683.86,,2019-04-10 14:18:36,2019-04-10 14:18:36,"0,350s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_iban""), ""TR121234123412341234123412"")",Chrome 73.0.3683.86,,2019-04-10 14:18:36,2019-04-10 14:18:37,"0,531s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_bankAccountNumber""), ""110110110110"")",Chrome 73.0.3683.86,,2019-04-10 14:18:37,2019-04-10 14:18:37,"0,364s",PASSED
+"click(findTestObject(""Object Repository/Filter/button_f_search""))",Chrome 73.0.3683.86,,2019-04-10 14:18:37,2019-04-10 14:18:37,"0,183s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:18:37,2019-04-10 14:18:39,"2,003s",PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-10 14:18:39,2019-04-10 14:18:40,"0,837s",PASSED
+,,,,,,
+Test Cases/Filter/Notification Filter,Chrome 73.0.3683.86,,2019-04-10 14:18:40,2019-04-10 14:18:56,"15,694s",PASSED
+"callTestCase(findTestCase(""1 - Login Success - C3""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 14:18:40,2019-04-10 14:18:49,"8,215s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/HomePage/Notifications""), 5) == true)",Chrome 73.0.3683.86,,2019-04-10 14:18:49,2019-04-10 14:18:49,"0,221s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_movementCategories""))",Chrome 73.0.3683.86,,2019-04-10 14:18:49,2019-04-10 14:18:49,"0,131s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:49,2019-04-10 14:18:50,"1,002s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:50,2019-04-10 14:18:50,"0,206s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_roles""))",Chrome 73.0.3683.86,,2019-04-10 14:18:50,2019-04-10 14:18:50,"0,143s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:50,2019-04-10 14:18:51,"1,002s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:51,2019-04-10 14:18:51,"0,123s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_user""))",Chrome 73.0.3683.86,,2019-04-10 14:18:51,2019-04-10 14:18:51,"0,096s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:18:51,2019-04-10 14:18:52,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:18:52,2019-04-10 14:18:53,"0,145s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_search""), ""TEST"")",Chrome 73.0.3683.86,,2019-04-10 14:18:53,2019-04-10 14:18:53,"0,190s",PASSED
+"click(findTestObject(""Object Repository/Filter/button_f_search""))",Chrome 73.0.3683.86,,2019-04-10 14:18:53,2019-04-10 14:18:53,"0,124s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:18:53,2019-04-10 14:18:55,"2,004s",PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-10 14:18:55,2019-04-10 14:18:56,"0,848s",PASSED
+,,,,,,
+Test Cases/Filter/Rolls Filter,Chrome 73.0.3683.86,,2019-04-10 14:18:56,2019-04-10 14:19:26,"30,574s",PASSED
+"callTestCase(findTestCase(""1 - Login Success - C3""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 14:18:56,2019-04-10 14:19:04,"7,806s",PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/HomePage/Users_Settings""), 5, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:04,2019-04-10 14:19:09,"5,680s",PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/HomePage/Roles""), 5, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:09,2019-04-10 14:19:10,"0,120s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:19:10,2019-04-10 14:19:11,"1,003s",PASSED
+"click(findTestObject(""Object Repository/HomePage/Roles""))",Chrome 73.0.3683.86,,2019-04-10 14:19:11,2019-04-10 14:19:11,"0,192s",PASSED
+"click(findTestObject(""Filter/div_f_mainUserGroup""))",Chrome 73.0.3683.86,,2019-04-10 14:19:11,2019-04-10 14:19:11,"0,139s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:19:11,2019-04-10 14:19:13,"2,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:13,2019-04-10 14:19:13,"0,154s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_permissions""))",Chrome 73.0.3683.86,,2019-04-10 14:19:13,2019-04-10 14:19:13,"0,175s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:19:13,2019-04-10 14:19:15,"2,004s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:15,2019-04-10 14:19:15,"0,195s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_bank""))",Chrome 73.0.3683.86,,2019-04-10 14:19:15,2019-04-10 14:19:16,"0,153s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:19:16,2019-04-10 14:19:18,"2,004s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:18,2019-04-10 14:19:18,"0,136s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_accountName""))",Chrome 73.0.3683.86,,2019-04-10 14:19:18,2019-04-10 14:19:18,"0,117s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:19:18,2019-04-10 14:19:20,"2,004s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:20,2019-04-10 14:19:23,"3,533s",PASSED
+"click(findTestObject(""Object Repository/Filter/button_f_search""))",Chrome 73.0.3683.86,,2019-04-10 14:19:23,2019-04-10 14:19:24,"0,145s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:19:24,2019-04-10 14:19:26,"2,003s",PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-10 14:19:26,2019-04-10 14:19:26,"0,836s",PASSED
+,,,,,,
+Test Cases/Filter/Rules Filter,Chrome 73.0.3683.86,,2019-04-10 14:19:26,2019-04-10 14:20:01,"34,767s",PASSED
+"callTestCase(findTestCase(""1 - Login Success - C3""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 14:19:27,2019-04-10 14:19:34,"7,824s",PASSED
+"if (verifyElementNotPresent(findTestObject(""HomePage/Rules""), 5, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:34,2019-04-10 14:19:40,"5,660s",PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/HomePage/a_Custom_Rules""), 5, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:40,2019-04-10 14:19:40,"0,126s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:19:40,2019-04-10 14:19:41,"1,011s",PASSED
+"click(findTestObject(""Object Repository/HomePage/a_Custom_Rules""))",Chrome 73.0.3683.86,,2019-04-10 14:19:41,2019-04-10 14:19:41,"0,232s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_exampleDescription""), ""TEST"")",Chrome 73.0.3683.86,,2019-04-10 14:19:41,2019-04-10 14:19:42,"0,292s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_bank""))",Chrome 73.0.3683.86,,2019-04-10 14:19:42,2019-04-10 14:19:42,"0,125s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:19:42,2019-04-10 14:19:43,"1,002s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:43,2019-04-10 14:19:43,"0,153s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_typeCode""))",Chrome 73.0.3683.86,,2019-04-10 14:19:43,2019-04-10 14:19:43,"0,147s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:19:43,2019-04-10 14:19:44,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:44,2019-04-10 14:19:48,"3,531s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_typeCodeTwo""))",Chrome 73.0.3683.86,,2019-04-10 14:19:48,2019-04-10 14:19:48,"0,072s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:19:48,2019-04-10 14:19:49,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:49,2019-04-10 14:19:52,"3,512s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_voucherType""))",Chrome 73.0.3683.86,,2019-04-10 14:19:52,2019-04-10 14:19:52,"0,092s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:19:52,2019-04-10 14:19:53,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:53,2019-04-10 14:19:54,"0,146s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_ workplace""), ""İSYERİ"")",Chrome 73.0.3683.86,,2019-04-10 14:19:54,2019-04-10 14:19:54,"0,295s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_department""), ""BOLUM"")",Chrome 73.0.3683.86,,2019-04-10 14:19:54,2019-04-10 14:19:54,"0,231s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_expenseCenter""), ""MASRAF MERKEZI"")",Chrome 73.0.3683.86,,2019-04-10 14:19:54,2019-04-10 14:19:55,"0,610s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_bankAccountCode""), ""BANKA HESAP KODU"")",Chrome 73.0.3683.86,,2019-04-10 14:19:55,2019-04-10 14:19:55,"0,482s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_safeCode""), ""KASA KODU"")",Chrome 73.0.3683.86,,2019-04-10 14:19:55,2019-04-10 14:19:55,"0,330s",PASSED
+"click(findTestObject(""Filter/div_f_incomingCategory""))",Chrome 73.0.3683.86,,2019-04-10 14:19:55,2019-04-10 14:19:56,"0,078s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:19:56,2019-04-10 14:19:57,"1,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:57,2019-04-10 14:19:57,"0,140s",PASSED
+"click(findTestObject(""Filter/div_f_outgoingCategory""))",Chrome 73.0.3683.86,,2019-04-10 14:19:57,2019-04-10 14:19:57,"0,094s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:19:57,2019-04-10 14:19:58,"1,014s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:58,2019-04-10 14:19:58,"0,145s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_transferStatus""))",Chrome 73.0.3683.86,,2019-04-10 14:19:58,2019-04-10 14:19:58,"0,097s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:19:58,2019-04-10 14:19:58,"0,117s",PASSED
+"click(findTestObject(""Object Repository/Filter/button_f_search""))",Chrome 73.0.3683.86,,2019-04-10 14:19:58,2019-04-10 14:19:58,"0,155s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:19:58,2019-04-10 14:20:00,"2,004s",PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-10 14:20:00,2019-04-10 14:20:01,"0,825s",PASSED
+,,,,,,
+Test Cases/Filter/Users Filter,Chrome 73.0.3683.86,,2019-04-10 14:20:01,2019-04-10 14:20:22,"20,425s",PASSED
+"callTestCase(findTestCase(""1 - Login Success - C3""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 14:20:01,2019-04-10 14:20:09,"7,989s",PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/HomePage/Users_Settings""), 5, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:20:09,2019-04-10 14:20:15,"5,554s",PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/HomePage/Users""), 5, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:20:15,2019-04-10 14:20:15,"0,112s",PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 14:20:15,2019-04-10 14:20:16,"1,002s",PASSED
+"click(findTestObject(""Object Repository/HomePage/Users""))",Chrome 73.0.3683.86,,2019-04-10 14:20:16,2019-04-10 14:20:16,"0,171s",PASSED
+"click(findTestObject(""Object Repository/Filter/div_f_userGroups""))",Chrome 73.0.3683.86,,2019-04-10 14:20:16,2019-04-10 14:20:16,"0,132s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:20:16,2019-04-10 14:20:18,"2,002s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Filter/li_f_combobox(1)""), 3, OPTIONAL))",Chrome 73.0.3683.86,,2019-04-10 14:20:18,2019-04-10 14:20:18,"0,149s",PASSED
+"setText(findTestObject(""Object Repository/Filter/input_f_search""), ""TEST"")",Chrome 73.0.3683.86,,2019-04-10 14:20:18,2019-04-10 14:20:19,"0,222s",PASSED
+"click(findTestObject(""Object Repository/Filter/button_f_search""))",Chrome 73.0.3683.86,,2019-04-10 14:20:19,2019-04-10 14:20:19,"0,109s",PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 14:20:19,2019-04-10 14:20:21,"2,003s",PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-10 14:20:21,2019-04-10 14:20:22,"0,802s",PASSED
