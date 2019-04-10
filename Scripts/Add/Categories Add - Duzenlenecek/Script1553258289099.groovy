@@ -25,11 +25,11 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/Catego
     WebUI.click(findTestObject('Object Repository/HomePage/Categories'))
 }
 
-WebUI.click(findTestObject('Categories/button_operation1'))
+WebUI.click(findTestObject('Object Repository/Categories/button_operation1'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Categories/li_addNew1'))
+WebUI.click(findTestObject('Object Repository/Categories/li_addCategory1'))
 
 WebUI.setText(findTestObject('Object Repository/Categories/input_categoryName'), 'Gelen Kategori')
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Object Repository/Categories/button_operation2'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Categories/li_addNew2'))
+WebUI.click(findTestObject('Object Repository/Categories/li_addCategory2'))
 
 WebUI.setText(findTestObject('Object Repository/Categories/input_categoryName'), 'Giden Kategori')
 

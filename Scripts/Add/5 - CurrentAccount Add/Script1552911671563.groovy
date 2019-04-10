@@ -20,6 +20,8 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/Curren
 } else {
     WebUI.click(findTestObject('Object Repository/HomePage/Descripton'))
 
+    WebUI.delay(1)
+
     WebUI.click(findTestObject('Object Repository/HomePage/Current-Accounts'))
 }
 

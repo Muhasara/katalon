@@ -3,56 +3,84 @@
    <description></description>
    <name>button_operation1</name>
    <tag></tag>
-   <elementGuidId>1c5efcdc-737d-4f01-a443-a8c8bdbc6aa2</elementGuidId>
+   <elementGuidId>e026c944-7031-4f89-ac44-1761848fd35b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[27]</value>
+         <value>(//button[@type='button'])[5]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn #actions ant-dropdown-trigger ant-dropdown-open pull-right ant-btn-default ant-btn-sm</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>İşlemler  </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/div/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div/div/button[2]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app&quot;]/div[@class=&quot;panel-layout ant-layout ant-layout-has-sider&quot;]/div[@class=&quot;panel-container ant-layout&quot;]/div[@class=&quot;ant-layout-content&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;mb-50 ant-col-md-24 ant-col-lg-12&quot;]/div[@class=&quot;ant-card table-card  ant-card-bordered&quot;]/div[@class=&quot;ant-card-head&quot;]/div[@class=&quot;ant-card-head-wrapper&quot;]/div[@class=&quot;ant-card-head-title&quot;]/button[@class=&quot;ant-btn #actions ant-dropdown-trigger ant-dropdown-open pull-right ant-btn-default ant-btn-sm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//button[@type='button'])[27]</value>
+      <value>(//button[@type='button'])[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/button[2]</value>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/div/div/div/div/div/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Giden Kategoriler'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gelen Kategoriler'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nakit Yatırılan'])[2]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hareket Kategorileri'])[2]/following::button[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Adı'])[3]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Adı'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/div/div/div/button[2]</value>
+      <value>//div[2]/div/div/div/div/div/div/div/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

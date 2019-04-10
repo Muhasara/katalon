@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_addNew2</name>
+   <name>li_addCategory2</name>
    <tag></tag>
-   <elementGuidId>ba6a1d49-ee13-443c-a5af-21fcf2843a0f</elementGuidId>
+   <elementGuidId>615130f1-b8d8-422e-94de-2d31a74a92fe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/div[@class=&quot;ant-dropdown ant-dropdown-placement-bottomLeft&quot;]/ul[@class=&quot;ant-dropdown-menu ant-dropdown-menu-light ant-dropdown-menu-root ant-dropdown-menu-vertical&quot;]/li[@class=&quot;ant-dropdown-menu-item&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Düzenle'])[1]/following::li[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Yeni Kayıt Ekle'])[1]/following::li[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,19 +42,13 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/div[@class=&quot;ant-dropdown ant-dropdown-placement-bottomLeft&quot;]/ul[@class=&quot;ant-dropdown-menu ant-dropdown-menu-light ant-dropdown-menu-root ant-dropdown-menu-vertical&quot;]/li[@class=&quot;ant-dropdown-menu-item&quot;]</value>
+      <value>/html[1]/body[1]/div[5]/div[1]/div[@class=&quot;ant-dropdown ant-dropdown-placement-bottomLeft&quot;]/ul[@class=&quot;ant-dropdown-menu ant-dropdown-menu-light ant-dropdown-menu-root ant-dropdown-menu-vertical&quot;]/li[@class=&quot;ant-dropdown-menu-item ant-dropdown-menu-item-active&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Düzenle'])[1]/following::li[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yeni Kayıt Ekle'])[1]/following::li[1]</value>
@@ -66,7 +56,13 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sil'])[1]/following::li[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[6]/div/div/ul/li</value>
+      <value>//div[5]/div/div/ul/li</value>
    </webElementXpaths>
 </WebElementEntity>
