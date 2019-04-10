@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/General/button_operation'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Categories/li_addCategory1'))
+WebUI.click(findTestObject('Object Repository/General/li_Add-New'))
 
 WebUI.setText(findTestObject('Object Repository/User/input_name'), 'İsim')
 
